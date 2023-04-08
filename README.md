@@ -26,6 +26,6 @@ Then, execute the script with the path to your CSV file as the only argument:
 python BingScraper.py path/to/your/csv/file.csv
 ```
 
-The script will read your CSV file and scrape images for each search query in the `query` column. The resulting image URLs will be stored in the `supporting_seed_keywords` column, separated by commas.
+The script will read your CSV file and scrape images for each search query in the `query` column. 
 
 Note that this script may take some time to complete, depending on the number of search queries and the number of images to be downloaded per query.
